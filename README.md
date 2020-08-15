@@ -4,9 +4,17 @@ Artificial Neural Networks (ANN) has been phenomenal in predictive analytics of 
 
 ![CHC](https://github.com/alsatwar/Feed-Forward-Neural-Network-approach-for-evaluating-business-potential-of-intellectual-properties/blob/master/Images/Untitled-1.png)
 
-the business potential of a patent was evaluated based on the prediction result regarding the likelihood that a patent survives until its maximum expiration date. this approach adjusted the threshold t of the patent’s business potential value to address the business potential from various viewpoints. Indeed, the performance of a decision system can be analyzed from multiple viewpoints by adjusting the threshold for determining the positive/negative state of a predicted value. 
-# Graph shows the variance of the precision recall and F2-Measure.
+# Evaluation metric
 
+It should be noted that this approach attempted to increase the F2-measure owing to its goal of identifying CBPs that have the potential to create a business value through retainment. That is, the recall value is considered more important than the precision value because a false negative rate is more critical than a false discovery rate in a practical business environment
+
+# Performance Evaluation
+
+In the confusion matrix of the test set, there are 22,188 patents in the true-positive (TP) category, meaning that they were retained until their maximum lifetime. In terms of the false-positive (FP) category, there are 14,087 patents that were not maintained but were expected to be retained until their maximum lifetime, whereas the false-negative (FN) category includes 3,125 patents that were not held for their maximum lifetime but were determined by the model to be non-CBPs. The true-negative (TN) category refers to patents that were abandoned before they reached their maximum lifetime but were deemed to be CBPs.
+ 
+ # Graph shows the variance of the precision recall and F2-Measure.
+
+The business potential of a patent was evaluated based on the prediction result regarding the likelihood that a patent survives until its maximum expiration date. this approach adjusted the threshold t of the patent’s business potential value to address the business potential from various viewpoints. Indeed, the performance of a decision system can be analyzed from multiple viewpoints by adjusting the threshold for determining the positive/negative state of a predicted value.
 ![sc](https://github.com/alsatwar/Feed-Forward-Neural-Network-approach-for-evaluating-business-potential-of-intellectual-properties/blob/master/Images/download%20(1).png)
 
 # Confusion Matrix :
