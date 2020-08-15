@@ -7,6 +7,7 @@ Artificial Neural Networks (ANN) has been phenomenal in predictive analytics of 
  # Graph shows the variance of the precision recall and F2-Measure.
 
 The business potential of a patent was evaluated based on the prediction result regarding the likelihood that a patent survives until its maximum expiration date. this approach adjusted the threshold t of the patent’s business potential value to address the business potential from various viewpoints. Indeed, the performance of a decision system can be analyzed from multiple viewpoints by adjusting the threshold for determining the positive/negative state of a predicted value.
+
 ![sc](https://github.com/alsatwar/Feed-Forward-Neural-Network-approach-for-evaluating-business-potential-of-intellectual-properties/blob/master/Images/download%20(1).png)
 
 # Confusion Matrix :
